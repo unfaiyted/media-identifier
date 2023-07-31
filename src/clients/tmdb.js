@@ -1,9 +1,14 @@
 import fs from 'fs';
 import fetch from 'isomorphic-fetch';
 
-const TMDB_API_KEY = '0c3cf3e726b6d3566fbe38b74c239e5b'; // Replace this with your actual TMDB API key
 
 export const getExpectedMediaDetailsFromTMDB = async (movieTitle, year) => {
+    const TMDB_API_KEY = process.env.TMDB_API_KEY;
+
+    if (!TMDB_API_KEY) {
+        throw new Error('TMDB_API_KEY environment variable is not set.');
+    }
+
     try {
         const response = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${TMDB_API_KEY}&query=${encodeURIComponent(movieTitle)}&primary_release_year=${year}`);
         if (!response.ok) {

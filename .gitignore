@@ -149,3 +149,4 @@ output.txt
 text.txt
 test.log
 
+*.env

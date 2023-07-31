@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca28f04e-3163-431e-9686-95db5f43d8e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clients/manager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clients/openai.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clients/tmdb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clients/whisper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/media.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clients/tmdb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/tmdb.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +207,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690499861400</updated>
       <workItem from="1690499862413" duration="4837000" />
-      <workItem from="1690549455349" duration="26670000" />
+      <workItem from="1690549455349" duration="31705000" />
     </task>
     <servers />
   </component>
